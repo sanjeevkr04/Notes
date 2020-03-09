@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NoteActivity">
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/editbox_style"
+        android:gravity="center"
+        android:hint="Title"
+        android:inputType="textAutoCorrect"
+        android:textColor="@android:color/background_dark" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/editbox_style"
+        android:gravity="top"
+        android:inputType="textAutoCorrect" />
+
+</LinearLayout>

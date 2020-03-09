@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="INSERT">insert</string>
+    <string name="DELETE">delete</string>
+    <string name="UPDATE">update</string>
+    <string name="QUERY">query</string>
+    <string name="DELETE_ALL">deleteAll</string>
+</resources>

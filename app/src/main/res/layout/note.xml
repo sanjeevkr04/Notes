@@ -17,7 +17,7 @@
         android:id="@+id/note_title"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="start"
+        android:gravity="start|center_vertical"
         android:text="Title"
         android:textColor="@android:color/background_dark"
         android:textSize="20sp" />

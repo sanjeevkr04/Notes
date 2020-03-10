@@ -13,8 +13,8 @@
         android:background="@drawable/editbox_style"
         android:gravity="center"
         android:hint="Title"
-        android:inputType="textAutoCorrect"
-        android:textColor="@android:color/background_dark" />
+        android:inputType="textCapSentences"
+        android:textColor="@android:color/black" />
 
     <EditText
         android:id="@+id/description"
@@ -22,6 +22,7 @@
         android:layout_height="match_parent"
         android:background="@drawable/editbox_style"
         android:gravity="top"
-        android:inputType="textAutoCorrect" />
+        android:inputType="textMultiLine|textCapSentences"
+        android:textColor="@android:color/black" />
 
 </LinearLayout>
